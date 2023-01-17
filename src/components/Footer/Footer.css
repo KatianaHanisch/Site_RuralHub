@@ -1,0 +1,72 @@
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #e2e8f0;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+.containerFooter .containerEndereco h1 {
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+  color: #334155;
+}
+.containerFooter .containerEndereco p {
+  font-size: 1.1rem;
+  color: #525e7a;
+}
+.containerRedesSociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.containerRedesSociais a {
+  list-style: none;
+  text-decoration: none;
+}
+.containerRedesSociais .btnRedeSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+  overflow: hidden;
+  background: #ffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.containerRedesSociais .btnRedeSocial .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  border-radius: 50px;
+  line-height: 60px;
+  color: #334155;
+}
+.containerRedesSociais .btnRedeSocial .iconInstagram:hover {
+  background-color: #cb1e58;
+  color: #ffffff;
+  transition: 0.9s;
+}
+.containerRedesSociais .btnRedeSocial .iconEmail:hover {
+  background-color: #64a8dc;
+  color: #ffffff;
+  transition: 0.9s;
+}
+.containerRedesSociais .btnRedeSocial .iconFacebook:hover {
+  background-color: #4267b2;
+  color: #ffffff;
+  transition: 0.9s;
+}
+.containerFooter .footer {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #525e7a;
+}

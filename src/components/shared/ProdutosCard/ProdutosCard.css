@@ -1,0 +1,51 @@
+.containerProdutosCard {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #e2e8f0;
+}
+.containerProdutosCard .containerIconeProduto {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.containerProdutosCard .containerIconeProduto img {
+  width: 100%;
+}
+.containerTextoProduto h3 {
+  color: #334155;
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+}
+.containerTextoProduto p {
+  color: #525e7a;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+.containerProdutosCard button {
+  padding: 10px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #1e293b;
+}
+.containerProdutosCard button a {
+  color: #ffffff;
+}
