@@ -1,16 +1,15 @@
 import React from "react";
 import "./Modal.css";
 
+import logo from "/img/argon-react.png";
+
 const Modal = ({ closeModal, descricao, titulo, modal }) => {
   return (
     <div className="modalContainer">
       <div className="modal">
         <div className="titleCloseBtn">
           <div className="imgLogo">
-            <img
-              src={import.meta.env.BASE_URL + "img/argon-react.png"}
-              alt="Logo da empresa"
-            />
+            <img src={logo} alt="Logo da empresa" />
           </div>
           <button onClick={() => closeModal(false)} className="closeBtn">
             X
