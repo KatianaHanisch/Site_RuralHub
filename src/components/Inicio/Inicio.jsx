@@ -2,15 +2,15 @@ import React from "react";
 
 import "./Inicio.css";
 
+import arrow from "../../assets/img/arrowDown.gif";
+import logo from "../../assets/img/argon-react-white.png";
+
 const Inicio = () => {
   return (
     <div className="imagemInicio">
       <div className="containerTextos">
         <div className="containerLogoInicio">
-          <img
-            src={import.meta.env.BASE_URL + "img/argon-react-white.png"}
-            alt="imagem da logo"
-          />
+          <img src={logo} alt="imagem da logo" />
         </div>
         <div>
           <h1>Sistemas Personalizados</h1>
@@ -19,11 +19,7 @@ const Inicio = () => {
         </div>
         <div className="container">
           <a href="#section">
-            <img
-              src={import.meta.env.BASE_URL + "img/arrowDown.gif"}
-              alt="arrowDown"
-              class="arrowDown"
-            />
+            <img src={arrow} alt="arrowDown" className="arrowDown" />
           </a>
         </div>
       </div>

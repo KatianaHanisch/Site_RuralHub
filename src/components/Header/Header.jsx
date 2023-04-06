@@ -9,7 +9,7 @@ const Header = () => {
           <li>
             <a href="#">
               <img
-                src={import.meta.env.BASE_URL + "img/blue.png"}
+                src={import.meta.env.BASE_URL + "/img/blue.png"}
                 alt="logo da empresa"
               />
             </a>
