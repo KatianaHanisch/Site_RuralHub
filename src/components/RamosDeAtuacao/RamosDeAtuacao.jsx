@@ -3,6 +3,23 @@ import Card from "../shared/Card/Card";
 
 import "./RamosDeAtuacao.css";
 
+import img1 from "../../assets/img/silo.png";
+import img2 from "../../assets/img/silo_vitual.png";
+
+import img3 from "../../assets/img/agricultor.png";
+import img4 from "../../assets/img/safra.png";
+
+import img5 from "../../assets/img/comercializacao.png";
+import img6 from "../../assets/img/corretora.png";
+
+import img7 from "../../assets/img/troca.png";
+import img8 from "../../assets/img/finanças.png";
+
+import img9 from "../../assets/img/industria.png";
+import img10 from "../../assets/img/logistica.png";
+
+import img11 from "../../assets/img/transportes.png";
+
 const RamosDeAtuacao = () => {
   return (
     <div className="containerRamos" id="section">
@@ -17,49 +34,49 @@ const RamosDeAtuacao = () => {
 
       <div className="containerCards">
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/silo.png"}
+          imagemCard={img1}
           tituloCard="Silos e Armazéns de Grãos"
           titulo="Silo Virtual"
           descricao="Com esse sistema você tem o controle de todas as etapas de
           armazenagem do produto contratado, com indicadores e painéis de
           avisos em tempo real sobre entradas e saídas."
-          iconeCard={import.meta.env.BASE_URL + "img/silo_vitual.png"}
-          modal={import.meta.env.BASE_URL + "img/silo_vitual.png"}
+          iconeCard={img2}
+          modal={img2}
         ></Card>
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/agricultor.png"}
+          imagemCard={img3}
           tituloCard="Fazendas e Produtores Rurais"
           titulo="BR Safra"
           descricao="Controle geral da produção de grãos, com apresentação de resultados precisos para otimizar a produtividade e maximizar o lucro de sua propriedade rural."
-          modal={import.meta.env.BASE_URL + "img/safra.png"}
+          modal={img4}
         ></Card>
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/comercializacao.png"}
+          imagemCard={img5}
           tituloCard="Comercialização de Cereais"
           titulo="BR Corretora"
           descricao="Gestão completa das operações de corretagem de grãos, contando com contratos de compra, venda, ordem de embarque e controle do estoque físico fiscal."
-          modal={import.meta.env.BASE_URL + "img/corretora.png"}
+          modal={img6}
         ></Card>
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/troca.png"}
+          imagemCard={img7}
           tituloCard="Revenda de Produtos"
           titulo="BR Finanças"
           descricao="Tenha em mãos o controle total do financeiro da sua empresa, de forma clara e objetiva para otimização de processos e alocação de recursos com precisão."
-          modal={import.meta.env.BASE_URL + "img/finanças.png"}
+          modal={img8}
         ></Card>
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/industria.png"}
+          imagemCard={img9}
           tituloCard="Indústrias"
           titulo="BR Finanças"
           descricao="Tenha em mãos o controle total do financeiro da sua empresa, de forma clara e objetiva para otimização de processos e alocação de recursos com precisão."
-          modal={import.meta.env.BASE_URL + "img/finanças.png"}
+          modal={img8}
         ></Card>
         <Card
-          imagemCard={import.meta.env.BASE_URL + "img/logistica.png"}
+          imagemCard={img10}
           tituloCard="Logística"
           titulo="BR Transporte"
           descricao="Demonstrativos de viagens, controle de receitas e despesas de frota, com suporte completo para os processos da empresa."
-          modal={import.meta.env.BASE_URL + "img/transportes.png"}
+          modal={img11}
         ></Card>
       </div>
     </div>

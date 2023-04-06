@@ -1,7 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
-import logo from "/img/argon-react.png";
+import logo from "../../assets/img/argon-react.png";
 
 const Modal = ({ closeModal, descricao, titulo, modal }) => {
   return (
