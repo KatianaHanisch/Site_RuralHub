@@ -1,5 +1,8 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
+
+import img from "../../assets/img/img_bg.jpg";
+
 import "./SaibaMais.css";
 
 const SaibaMais = () => {
@@ -53,7 +56,7 @@ const SaibaMais = () => {
         </div>
         <div className="colunaLeft">
           <div className="informacoesImg">
-            <img src={import.meta.env.BASE_URL + "img/img_bg.jpg"} alt="" />
+            <img src={img} alt="" />
           </div>
         </div>
       </div>
